@@ -1,0 +1,37 @@
+{
+    "name": "react-countries",
+    "version": "1.0.0",
+    "description": "A tiny fully customizable react hook which gives you full list of countries with their name, dial code, alpha-2 code and flag emoji.",
+    "scripts": {
+        "start": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html"
+    },
+    "author": "Hiren K Vaghasiya <hirenkvaghasiya@yandex.com>",
+    "homepage": "https://hirenkvaghasiya.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hirenkvaghasiya/react-countries.git"
+    },
+    "keywords": [
+        "react",
+        "countries",
+        "country list",
+        "country dial code list",
+        "country alpha-2 code list",
+        "country flag list"
+    ],
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17 || ^18"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.9",
+        "@babel/preset-react": "^7.22.5",
+        "buffer": "^6.0.3",
+        "parcel": "^2.9.3",
+        "process": "^0.11.10",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {}
+}
